@@ -14,6 +14,25 @@ const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 // sidebar toggle functionality for mobile
 sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
 
+// Form validation helper functions
+const showError = function(input, message) {
+  const errorDiv = input.nextElementSibling?.classList.contains('error-message')
+    ? input.nextElementSibling
+    : document.createElement('div');
+
+  if (!input.nextElementSibling?.classList.contains('error-message')) {
+    errorDiv.className = 'error-message';
+    input.parentNode.insertBefore(errorDiv, input.nextSibling);
+  }
+  errorDiv.textContent = message;
+  input.setAttribute('aria-invalid', 'true');
+};
+
+const clearError = function(input) {
+  input.nextElementSibling?.classList.contains('error-message') && input.nextElementSibling.remove();
+  input.setAttribute('aria-invalid', 'false');
+};
+
 
 
 // testimonials variables
@@ -30,11 +49,28 @@ const modalText = document.querySelector("[data-modal-text]");
 // modal toggle function
 const testimonialsModalFunc = function () {
   modalContainer.classList.toggle("active");
+  modalContainer.setAttribute('aria-hidden', !modalContainer.classList.contains('active'));
   overlay.classList.toggle("active");
+
+  if (modalContainer.classList.contains("active")) {
+    document.addEventListener('keydown', handleModalKeyboard);
+    modalCloseBtn.focus();
+  } else {
+    document.removeEventListener('keydown', handleModalKeyboard);
+    document.querySelector('[data-testimonials-item]').focus();
+  }
 }
+
+// Handle modal keyboard interactions
+const handleModalKeyboard = function(e) {
+  if (e.key === 'Escape') {
+    testimonialsModalFunc();
+  }
+};
 
 // add click event to all modal items
 for (let i = 0; i < testimonialsItem.length; i++) {
+  testimonialsItem[i].setAttribute('tabindex', '0');
 
   testimonialsItem[i].addEventListener("click", function () {
 
@@ -123,6 +159,25 @@ const formBtn = document.querySelector("[data-form-btn]");
 // add event to all form input field
 for (let i = 0; i < formInputs.length; i++) {
   formInputs[i].addEventListener("input", function () {
+    const input = this;
+
+    // Clear previous error
+    clearError(input);
+
+    // Specific validation for email
+    if (input.type === 'email' && input.value) {
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(input.value)) {
+        showError(input, 'Por favor, insira um email válido');
+        return;
+      }
+    }
+
+    // Required field validation
+    if (input.hasAttribute('required') && !input.value.trim()) {
+      showError(input, 'Este campo é obrigatório');
+      return;
+    }
 
     // check form validation
     if (form.checkValidity()) {
@@ -130,7 +185,11 @@ for (let i = 0; i < formInputs.length; i++) {
     } else {
       formBtn.setAttribute("disabled", "");
     }
+  });
 
+  // Add blur event for immediate validation feedback
+  formInputs[i].addEventListener("blur", function() {
+    this.dispatchEvent(new Event('input'));
   });
 }
 
@@ -147,9 +206,11 @@ for (let i = 0; i < navigationLinks.length; i++) {
     for (let i = 0; i < pages.length; i++) {
       if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
         pages[i].classList.add("active");
+        navigationLinks[i].setAttribute('aria-current', 'page');
         navigationLinks[i].classList.add("active");
         window.scrollTo(0, 0);
       } else {
+        navigationLinks[i].removeAttribute('aria-current');
         pages[i].classList.remove("active");
         navigationLinks[i].classList.remove("active");
       }
