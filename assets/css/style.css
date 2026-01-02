@@ -862,7 +862,7 @@ main {
 }
 
 .skill-progress-fill {
-  background: oklch(0.75 0.15 127);
+  background: #94bf4d;
   height: 100%;
   border-radius: inherit;
 }
