@@ -849,7 +849,7 @@ main {
 }
 
 .skill .title-wrapper data {
-  color:#fffb03;
+  color:oklch(0.75 0.15 127);
   font-size: var(--fs-7);
   font-weight: var(--fw-300);
 }
@@ -862,7 +862,7 @@ main {
 }
 
 .skill-progress-fill {
-  background: var(--text-gradient-yellow);
+  background: oklch(0.75 0.15 127);
   height: 100%;
   border-radius: inherit;
 }
