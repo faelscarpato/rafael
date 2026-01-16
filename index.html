@@ -445,82 +445,105 @@
       </div>
     </section>
 
-    <!-- === SECTION 3: PORTFOLIO === -->
-    <section class="section-panel next" id="sec-3">
-      <!-- Parallax Layer: BG -->
-      <div class="parallax absolute inset-0" data-speed="1">
-        <div class="absolute inset-0 bg-slate-900"></div>
-         <div class="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-7"></div>
-        <!-- Gradient mesh effect -->
-        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80vw] h-[80vh] bg-gradient-to-r from-indigo-900/20 to-purple-900/20 rounded-full blur-3xl"></div>
-      </div>
+  <!-- === SECTION 3: PORTFOLIO === -->
+<section class="section-panel next" id="sec-3">
+  <!-- Parallax Layer: BG -->
+  <div class="parallax absolute inset-0" data-speed="1">
+    <div class="absolute inset-0 bg-slate-900"></div>
+    <div class="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-7"></div>
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80vw] h-[80vh] bg-gradient-to-r from-indigo-900/20 to-purple-900/20 rounded-full blur-3xl"></div>
+  </div>
 
-      <!-- Parallax Layer: Content -->
-      <div class="parallax-mouse section-content portfolio-content relative z-10 w-full max-w-7xl px-6 md:px-12" data-speed="0.5">
-        <div class="text-center mb-12">
-          <h2 class="portfolio-title text-4xl md:text-6xl font-bold text-white">Projetos Recentes</h2>
+  <!-- Parallax Layer: Content -->
+  <div class="parallax-mouse section-content portfolio-content relative z-10 w-full max-w-7xl px-6 md:px-12" data-speed="0.5">
+    <div class="text-center mb-12">
+      <h2 class="portfolio-title text-4xl md:text-6xl font-bold text-white">Projetos Recentes</h2>
+    </div>
+
+    <div class="portfolio-grid flex flex-col md:flex-row justify-center gap-8 h-[50vh]">
+      <!-- Item 1 -->
+      <a
+        href="https://github.com/faelscarpato/capyuniverse"
+        target="_blank" rel="noopener noreferrer"
+        aria-label="Abrir repositório CapyUniverse (nova aba)"
+        class="glass-card group relative flex-1 rounded-2xl overflow-hidden cursor-pointer transition-all duration-500 hover:flex-[2.5]"
+      >
+        <div class="absolute inset-0 bg-gradient-to-br from-indigo-800 to-slate-900"></div>
+        <div class="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/gplay.png')] opacity-1 group-hover:opacity-15 transition-opacity"></div>
+
+        <div class="absolute inset-0 right-0 flex items-center justify-end text-9xl text-white opacity-1 group-hover:opacity-20 transition-opacity">
+          <i class="fa-solid fa-robot"></i>
         </div>
 
-        <div class="portfolio-grid flex flex-col md:flex-row justify-center gap-8 h-[50vh]">
-          <!-- Item 1 -->
-          <div class="glass-card group relative flex-1 rounded-2xl overflow-hidden cursor-pointer transition-all duration-500 hover:flex-[2.5]">
-            <div class="absolute inset-0 bg-gradient-to-br from-indigo-800 to-slate-900"></div><div class="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/gplay.png')] opacity-1 group-hover:opacity-15 transition-opacity"></div>
-      
-            <div class="absolute inset-0 right-0 flex items-center justify-end text-9xl text-white opacity-1 group-hover:opacity-20 transition-opacity">
-              <i class="fa-solid fa-robot"></i>
-            </div>
-            <img
-  src="src/assets/capy.png"
-  alt="Prévia do projeto CapyUniverse"
-  class="absolute inset-0 w-full h-full object-cover opacity-5 group-hover:opacity-60 transition-opacity duration-500 ease-out transform-gpu group-hover:scale-[1.02] z-1"
-  loading="lazy"
-/>
-            <div class="absolute bottom-0 left-0 p-8 w-full bg-gradient-to-t from-slate-900 to-transparent">
-              <h3 class="text-2xl font-bold text-white">CapyUniverse</h3>
-              <p class="text-[#00000] text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity">IA & Automação para Inovação</p>
-            </div>
-          </div>
+        <img
+          src="src/assets/capy.png"
+          alt="Prévia do projeto CapyUniverse"
+          class="absolute inset-0 w-full h-full object-cover opacity-5 group-hover:opacity-60 transition-opacity duration-500 ease-out transform-gpu group-hover:scale-[1.02] z-10"
+          loading="lazy"
+        />
 
-          <!-- Item 2 -->
-          <div class="glass-card group relative flex-1 rounded-2xl overflow-hidden cursor-pointer transition-all duration-500 hover:flex-[2.5]">
-            <div class="absolute inset-0 bg-gradient-to-br from-purple-800 to-slate-900"></div><div class="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/gplay.png')] opacity-1 group-hover:opacity-15 transition-opacity"></div>
-            <div class="absolute inset-0 right-0 flex items-center justify-end text-9xl text-white opacity-1 group-hover:opacity-20 transition-opacity">
-              <i class="fa-solid fa-terminal"></i>
-            </div>
-             <img
-  src="src/assets/capyuni.png"
-  alt="Prévia do projeto CapyUniverse"
-  class="absolute inset-0 w-full h-full object-cover opacity-5 group-hover:opacity-60 transition-opacity duration-500 ease-out transform-gpu group-hover:scale-[1.02] z-1"
-  loading="lazy"
-/>
-            <div class="absolute bottom-0 left-0 p-8 w-full bg-gradient-to-t from-slate-900 to-transparent">
-              <h3 class="text-2xl font-bold text-white">CapyUNI Codium</h3>
-               <p class="text-[#00000] text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity">Experiências para Devs</p>
-            </div>
-          </div>
-
-          <!-- Item 3 -->
-          <div class="glass-card group relative flex-1 rounded-2xl overflow-hidden cursor-pointer transition-all duration-500 hover:flex-[2.5]">
-            <div class="absolute inset-0 bg-gradient-to-br from-pink-800 to-slate-900"></div><div class="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/gplay.png')] opacity-1 group-hover:opacity-15 transition-opacity"></div>
-            <div class="absolute inset-0 right-0 flex items-center justify-end text-9xl text-white opacity-1 group-hover:opacity-20 transition-opacity">
-              <i class="fa-solid fa-wand-magic-sparkles"></i>
-            </div>
-             <img
-  src="src/assets/capycard.png"
-  alt="Prévia do projeto CapyUniverse"
-  class="absolute inset-0 w-full h-full object-cover opacity-5 group-hover:opacity-60 transition-opacity duration-500 ease-out transform-gpu group-hover:scale-[1.02] z-1"
-  loading="lazy"
-/>
-            <div class="absolute bottom-0 left-0 p-8 w-full bg-gradient-to-t from-slate-900 to-transparent">
-              <h3 class="text-2xl font-bold text-white">Cardápio</h3>
-              <p class="text-[#00000] text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity">Criação Visual de cardápios virtuais</p>
-            </div>
-          </div>
-          
+        <div class="absolute bottom-0 left-0 p-8 w-full bg-gradient-to-t from-slate-900 to-transparent">
+          <h3 class="text-2xl font-bold text-white">CapyUniverse</h3>
+          <p class="text-[#00000] text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity">IA & Automação para Inovação</p>
         </div>
-      </div>
-    </section>
+      </a>
 
+      <!-- Item 2 -->
+      <a
+        href="https://github.com/faelscarpato/capyuniv2"
+        target="_blank" rel="noopener noreferrer"
+        aria-label="Abrir repositório CapyUNI Codium (nova aba)"
+        class="glass-card group relative flex-1 rounded-2xl overflow-hidden cursor-pointer transition-all duration-500 hover:flex-[2.5]"
+      >
+        <div class="absolute inset-0 bg-gradient-to-br from-purple-800 to-slate-900"></div>
+        <div class="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/gplay.png')] opacity-1 group-hover:opacity-15 transition-opacity"></div>
+
+        <div class="absolute inset-0 right-0 flex items-center justify-end text-9xl text-white opacity-1 group-hover:opacity-20 transition-opacity">
+          <i class="fa-solid fa-terminal"></i>
+        </div>
+
+        <img
+          src="src/assets/capyuni.png"
+          alt="Prévia do projeto CapyUNI Codium"
+          class="absolute inset-0 w-full h-full object-cover opacity-5 group-hover:opacity-60 transition-opacity duration-500 ease-out transform-gpu group-hover:scale-[1.02] z-10"
+          loading="lazy"
+        />
+
+        <div class="absolute bottom-0 left-0 p-8 w-full bg-gradient-to-t from-slate-900 to-transparent">
+          <h3 class="text-2xl font-bold text-white">CapyUNI Codium</h3>
+          <p class="text-[#00000] text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity">Experiências para Devs</p>
+        </div>
+      </a>
+
+      <!-- Item 3 -->
+      <a
+        href="https://github.com/faelscarpato/cardapio"
+        target="_blank" rel="noopener noreferrer"
+        aria-label="Abrir repositório Cardápio virtual (nova aba)"
+        class="glass-card group relative flex-1 rounded-2xl overflow-hidden cursor-pointer transition-all duration-500 hover:flex-[2.5]"
+      >
+        <div class="absolute inset-0 bg-gradient-to-br from-pink-800 to-slate-900"></div>
+        <div class="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/gplay.png')] opacity-1 group-hover:opacity-15 transition-opacity"></div>
+
+        <div class="absolute inset-0 right-0 flex items-center justify-end text-9xl text-white opacity-1 group-hover:opacity-20 transition-opacity">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+        </div>
+
+        <img
+          src="src/assets/capycard.png"
+          alt="Prévia do projeto Cardápio virtual"
+          class="absolute inset-0 w-full h-full object-cover opacity-5 group-hover:opacity-60 transition-opacity duration-500 ease-out transform-gpu group-hover:scale-[1.02] z-10"
+          loading="lazy"
+        />
+
+        <div class="absolute bottom-0 left-0 p-8 w-full bg-gradient-to-t from-slate-900 to-transparent">
+          <h3 class="text-2xl font-bold text-white">Cardápio</h3>
+          <p class="text-[#00000] text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity">Criação Visual de cardápios virtuais</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
     <!-- === SECTION 4: CONTACT === -->
     <section class="section-panel next" id="sec-4">
       <!-- Parallax Layer: BG -->
