@@ -1,1354 +1,820 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rafael - ScWeb | Portfólio</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/avatar.png" type="image/png">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
-
-<body>
-
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/avatar.png" alt="Rafael Scarpato" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Rafael Scarpato">Rafael Scarpato</h1>
-
-          <p class="title">Sempre Aprendendo</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Meus Constatos</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">E-mail</p>
-
-              <a href="mailto:scarpatoweb@gmail.com" class="contact-link">scarpatoweb@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Cell / WhatsApp</p>
-
-              <a href="tel:+5519995466902" class="contact-link">+55 (19) 9.9546-6902</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Nascimento</p>
-
-              <time datetime="1982-06-23">Jan 22, 1990</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Localização</p>
-
-              <address>Pedreira, SP, Brasil</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/rafaelscarpato" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://github.com/faelscarpato" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://instagram.com/rafaelscarpato" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>Sobre</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Habilidades</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Projetos</button>
-          </li>
-
-         <!--<li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>--> 
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contato</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="sobre">
-
-        <header>
-          <h2 class="h2 article-title">Sobre Mim</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            Olá 👋, meu nome é Rafael, tenho 35 anos de idade e sou um autodidata e curioso de saber como as coisas acontecem...então...👇</p>
-            <p>
-    Sou uma pessoa cabeça dura, gosto de sempre estar atualizado sobre novos acontecimentos na área de tecnologia. Com o tempo eu fui aprendendo a gostar de estudar e a curiosidade aumentou e assim sempre tento buscar aprender novos desafios.
-          </p>
-
-          <p>
-            Sou designer gráfico de autodidata, comecei a aprender fuçando e vendo artes de pessoas profissionais, hoje trabalho com as principais ferramentas de criação, como, Photoshop, Illustrator, CorelDraw, figma e mais alguns.
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">O Que Sei Fazer</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Designer Gráfico</h4>
-
-                <p class="service-item-text">
-                  Criação de Logotipos, Identidade Visual, Artes Gráficas.</p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Desenvolvimento Web</h4>
-
-                <p class="service-item-text">
-                  Desenvolvimento de sites de alta qualidade a nível profissional.</p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Marketing Digital</h4>
-
-                <p class="service-item-text">
-                  Desenvolvo estratégias eficazes para impulsionar empresas.</p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Fotografias</h4>
-
-                <p class="service-item-text">
-                  Sou um amante de fotografias, gosto de capturar momentos unicos e edita-las para terem mais destaques.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-
-        <section class="testimonials">
-
-      <!--  <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>-->
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CapyPages | High-Performance Web Agency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        slate: {
+                            850: '#151e2e',
+                            900: '#0f172a',
+                        },
+                        indigo: {
+                            450: '#7178F5',
+                            500: '#6366f1',
+                            600: '#4f46e5',
+                        },
+                        emerald: {
+                            450: '#34d399',
+                            500: '#10b981',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+                    },
+                    transitionTimingFunction: {
+                        'in-expo': 'cubic-bezier(0.95, 0.05, 0.795, 0.035)',
+                        'out-expo': 'cubic-bezier(0.19, 1, 0.22, 1)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap');
+
+        body, html {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            background-color: #0f172a;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container for all sections */
+        main {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* General Section Styling */
+        section {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            visibility: hidden;
+            transition: transform 1s cubic-bezier(0.645, 0.045, 0.355, 1.000), opacity 0.8s ease, visibility 0s 1s;
+            will-change: transform, opacity;
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        /* Active Section */
+        section.active {
+            opacity: 1;
+            visibility: visible;
+            z-index: 20;
+            transform: translateY(0%);
+            transition: transform 1s cubic-bezier(0.645, 0.045, 0.355, 1.000), opacity 0.5s ease 0.2s, visibility 0s 0s;
+        }
+
+        /* Previous Section (Slide Up) */
+        section.previous {
+            transform: translateY(-100%) scale(0.9);
+            opacity: 0;
+            z-index: 10;
+        }
+
+        /* Next Section (Waiting at bottom) */
+        section.next {
+            transform: translateY(100%);
+            opacity: 0;
+            z-index: 30;
+        }
+
+        /* Reusing styles */
+        .glass-card {
+            background: rgba(30, 41, 59, 0.4);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .glass-card:hover {
+            transform: translateY(-5px);
+            background: rgba(30, 41, 59, 0.6);
+            border-color: rgba(99, 102, 241, 0.3);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
+        }
+
+        .gradient-text {
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-image: linear-gradient(to right, #818cf8, #c084fc, #f472b6);
+        }
         
-       
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-          </section>
-
-        </div>
-
-
-        <!--
-          - clients
--->
-        <section class="clients">
-
-          <!-- <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>-->
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #HABILIDADES
-      -->
-
-      <article class="resume" data-page="habilidades">
-
-        <header>
-          <h2 class="h2 article-title">Habilidades</h2>
-        </header>
-
-       <!-- <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Formação</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Unicesumar - Analise de Sistemas</h4>
-
-              <span>2023 — Atual</span>
-
-              <p class="timeline-text">
-                Estudante de Analise de Sistema e Desenvolvimento de Softwares.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Udemy - Desenvolvimento Web</h4>
-
-              <span>2022 — Atual</span>
-
-              <p class="timeline-text">
-                Curso Completo de Desenvolvimento Web
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-              <span>2002 — 2004</span>
-
-              <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Creative director</h4>
-
-              <span>2015 — Present</span>
-
-              <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Art director</h4>
-
-              <span>2013 — 2015</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-
-              <span>2010 — 2013</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>-->
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">Designer Gráfico</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Adobe Photoshop</h5>
-                <data value="85">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Adobe Illustrator</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Adobe Photoshop Lightroom</h5>
-                <data value="65">65%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 65%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">CorelDraw</h5>
-                <data value="65">65%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 65%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-        <br>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">Desenvolvimento Web</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">HTML</h5>
-                <data value="85">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">CSS</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">JAVASCRIPT</h5>
-                <data value="55">55%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 55%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">PHP</h5>
-                <data value="15">15%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 15%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="projetos">
-
-        <header>
-          <h2 class="h2 article-title">Portfólio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Designer Gráfico</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>WebSites</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Fotografias</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Projetos</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Designer Gráfico</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>WebSites</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Fotografias</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="websites">
-              <a href="https://faelscarpato.github.io/pedreiracep/">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.png" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">PedreiraCEP</h3>
-
-                <p class="project-category">WebSites</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="websites">
-              <a href="https://faelscarpato.github.io/isa/">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Psicológa</h3>
-
-                <p class="project-category">WebSites</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="designer gráfico">
-              <a href="https://www.behance.net/gallery/139251375/Artes-de-Scarpato-Designer">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.png" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Logotipo</h3>
-
-                <p class="project-category">Designer Gráfico</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="websites">
-              <a href="https://www.residenceparkhotel.com.br/index.html">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Hotelaria</h3>
-
-                <p class="project-category">WebSites</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="websites">
-              <a href="https://gaimpressoes.vercel.app/">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Comunicação Visual</h3>
-
-                <p class="project-category">WebSites</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="websites">
-              <a href="https://faelscarpato.github.io/ScFotos/">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Portfólio Fotografias</h3>
-
-                <p class="project-category">WebSites</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="websites">
-              <a href="https://faelscarpato.github.io/cardapio/">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Lanchonete</h3>
-
-                <p class="project-category">WebSites</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="designer gráfico">
-              <a href="https://www.behance.net/gallery/117739205/ULTIMOS-TRABALHOS">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arte Digital</h3>
-
-                <p class="project-category">Designer Gráfico</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="designer gráfico">
-              <a href="https://www.behance.net/gallery/117739205/ULTIMOS-TRABALHOS">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arte Digital</h3>
-
-                <p class="project-category">Designer Gráfico</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #CONTATO
-      -->
-
-      <article class="contact" data-page="contato">
-
-        <header>
-          <h2 class="h2 article-title">Contato</h2>
-        </header>
- 
-        <section class="contact-form">
-
-
-          <div class="service-content-box">
-            <h4 class="h4 service-item-title">Rafael Scarpato</h4>
-
-            <p class="service-item-text">
-              Um curioso que está sempre em busca de aprender algo novo.</p>
-          </div>
-
-
-            <div class="separator"></div>
+        .gradient-text-green {
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-image: linear-gradient(to right, #34d399, #10b981);
+        }
+
+        /* Navigation Dots */
+        .nav-dots {
+            position: fixed;
+            right: 2rem;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 50;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .nav-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.2);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .nav-dot.active {
+            background: #6366f1; /* Indigo 500 */
+            transform: scale(1.4);
+        }
+        .nav-dot:hover {
+            background: rgba(255, 255, 255, 0.5);
+        }
     
+        html {
+            font-size: clamp(14px, 1.8vh, 16px);
+        }
 
-          <ul class="contacts-list">
+        :root {
+            --section-pad: clamp(0.75rem, 3vh, 2.5rem);
+            --section-gap: clamp(0.75rem, 2vh, 1.5rem);
+        }
 
-            <li class="contact-item">
-  
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
-  
-              <div class="contact-info">
-                <p class="contact-title">E-mail</p>
-  
-                <a href="mailto:scarpatoweb@gmail.com" class="contact-link">scarpatoweb@gmail.com</a>
-              </div>
-  
-            </li>
-  
-            <li class="contact-item">
-  
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-              </div>
-  
-              <div class="contact-info">
-                <p class="contact-title">Cell / WhatsApp</p>
-  
-                <a href="tel:+5519995466902" class="contact-link">+55 (19) 9.9546-6902</a>
-              </div>
-  
-            </li>
-  
-            <li class="contact-item">
-  
-              <div class="icon-box">
-                <ion-icon name="calendar-outline"></ion-icon>
-              </div>
-  
-              <div class="contact-info">
-                <p class="contact-title">Nascimento</p>
-  
-                <time datetime="1982-06-23">Jan 22, 1990</time>
-              </div>
-  
-            </li>
-  
-            <li class="contact-item">
-  
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
-  
-              <div class="contact-info">
-                <p class="contact-title">Localização</p>
-  
-                <address>Pedreira, SP, Brasil</address>
-              </div>
-  
-            </li>
-  
-          </ul>
+        .section-panel {
+            padding: var(--section-pad) 0;
+        }
 
-<li class="contact-item">
-        <div class="icon-box">
-          <ion-icon name="document-outline"></ion-icon>
+        .section-content {
+            max-height: calc(100vh - (var(--section-pad) * 2));
+        }
+
+        .hero-massive {
+            font-size: clamp(6rem, 20vw, 16rem) !important;
+        }
+
+        .hero-title {
+            font-size: clamp(2.4rem, 6.5vw, 4.25rem) !important;
+            line-height: 1.05 !important;
+            margin-bottom: clamp(1rem, 3vh, 2rem) !important;
+        }
+
+        .hero-badge {
+            margin-bottom: clamp(0.75rem, 2vh, 1.5rem) !important;
+        }
+
+        .hero-down {
+            margin-top: clamp(0.5rem, 1.5vh, 1.25rem) !important;
+        }
+
+        .services-title {
+            font-size: clamp(1.6rem, 4.5vw, 2.5rem) !important;
+            margin-top: clamp(1rem, 2.5vh, 2rem) !important;
+        }
+
+        .services-copy {
+            font-size: clamp(0.8rem, 1.8vw, 1rem) !important;
+        }
+
+        .services-list > :not([hidden]) ~ :not([hidden]) {
+            margin-top: clamp(0.4rem, 1.2vh, 0.75rem) !important;
+        }
+
+        .landing-grid {
+            gap: clamp(1.5rem, 3vh, 2.5rem) !important;
+        }
+
+        .landing-title {
+            font-size: clamp(1.8rem, 5.2vw, 3.2rem) !important;
+            line-height: 1.1 !important;
+            margin-bottom: clamp(0.75rem, 2vh, 1.25rem) !important;
+        }
+
+        .landing-copy {
+            font-size: clamp(0.75rem, 1.7vw, 1rem) !important;
+            margin-bottom: clamp(0.75rem, 2vh, 1.25rem) !important;
+        }
+
+        .landing-features {
+            gap: clamp(0.6rem, 1.5vh, 1rem) !important;
+        }
+
+        .landing-card {
+            padding: clamp(1rem, 2.5vh, 1.75rem) !important;
+        }
+
+        .portfolio-title {
+            font-size: clamp(2rem, 5vw, 3.5rem) !important;
+        }
+
+        .portfolio-grid {
+            height: clamp(34vh, 45vh, 50vh) !important;
+            gap: clamp(1rem, 2vh, 2rem) !important;
+        }
+
+        .contact-card {
+            padding: clamp(1.5rem, 3.5vh, 3rem) !important;
+        }
+
+        .contact-title {
+            font-size: clamp(2rem, 5vw, 3.5rem) !important;
+            margin-bottom: clamp(0.75rem, 2vh, 1.5rem) !important;
+        }
+
+        .contact-actions {
+            gap: clamp(0.75rem, 2vh, 1.5rem) !important;
+            margin-bottom: clamp(0.75rem, 2vh, 1.5rem) !important;
+        }
+
+        .contact-social {
+            margin-top: clamp(0.75rem, 2vh, 1.5rem) !important;
+        }
+
+        @media (max-height: 720px) {
+            .section-panel {
+                padding: 0.5rem 0;
+            }
+
+            .landing-card {
+                padding: 0.9rem !important;
+            }
+
+            .portfolio-grid {
+                height: 38vh !important;
+            }
+
+            .hero-massive {
+                opacity: 0.35;
+            }
+        }
+    
+        .sales-section {
+            padding-top: clamp(0.5rem, 2vh, 1.5rem) !important;
+            padding-bottom: clamp(0.5rem, 2vh, 1.5rem) !important;
+        }
+
+        .sales-section .landing-content {
+            margin-top: 0 !important;
+        }
+
+        .sales-section .landing-badge {
+            margin-top: 0 !important;
+            margin-bottom: clamp(0.5rem, 1.5vh, 1rem) !important;
+        }
+
+        .sales-section .landing-features {
+            gap: clamp(0.4rem, 1vh, 0.8rem) !important;
+        }
+
+        .sales-section .landing-card {
+            padding: clamp(0.85rem, 2vh, 1.4rem) !important;
+        }
+
+        .sales-section .landing-card-badge {
+            width: clamp(2.4rem, 6vh, 3rem) !important;
+            height: clamp(2.4rem, 6vh, 3rem) !important;
+            font-size: clamp(0.5rem, 1.2vh, 0.7rem) !important;
+        }
+
+        .sales-section .landing-card-title {
+            font-size: clamp(1.1rem, 3vh, 1.5rem) !important;
+            margin-bottom: clamp(0.25rem, 1vh, 0.6rem) !important;
+        }
+
+        .sales-section .landing-offer-list {
+            margin-bottom: clamp(0.4rem, 1.2vh, 0.9rem) !important;
+        }
+
+        .sales-section .landing-offer-item {
+            padding-bottom: clamp(0.2rem, 0.8vh, 0.5rem) !important;
+        }
+
+        .sales-section .landing-cta {
+            padding-top: clamp(0.65rem, 1.5vh, 0.9rem) !important;
+            padding-bottom: clamp(0.65rem, 1.5vh, 0.9rem) !important;
+        }
+    </style>
+</head>
+<body class="text-slate-100 font-sans">
+
+    <!-- Fixed Header -->
+    <header class="fixed top-0 left-0 w-full z-50 py-6 px-6 md:px-12 flex justify-between items-center transition-all duration-300">
+        <div class="flex items-center gap-3 cursor-pointer" onclick="navigateTo(0)">
+            
+            <span class="text-1xl font-bold tracking-tight">CapyPages</span>
         </div>
-        <div class="contact-info">
-          <p class="contact-title">Currículo</p>
-          <a href="Curriculo.pdf" download="resume.pdf" class="contact-link">Baixar Currículo</a>
-        </div>
-      </li>
+        <button onclick="navigateTo(4)" class="hidden md:block px-6 py-2.5 rounded-full bg-white/10 hover:bg-indigo-600 border border-white/5 hover:border-indigo-500 transition-all text-sm font-semibold backdrop-blur-sm">
+            Contato
+        </button>
+    </header>
 
-    </ul>
-  
-          <div class="separator"></div>
-  
-          <ul class="social-list">
-  
-            <li class="social-item">
-              <a href="https://www.linkedin.com/in/rafaelscarpato" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-  
-            <li class="social-item">
-              <a href="https://github.com/faelscarpato" class="social-link">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-            </li>
-  
-            <li class="social-item">
-              <a href="https://instagram.com/rafaelscarpato" class="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-  
-          </ul>
-  
-        </div>
-
-         <!-- <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>-->
-
-        </section>
-
-      </article>
-
+    <!-- Side Navigation Dots -->
+    <div class="nav-dots">
+        <div class="nav-dot active" onclick="navigateTo(0)" title="Home"></div>
+        <div class="nav-dot" onclick="navigateTo(1)" title="Services"></div>
+        <div class="nav-dot" onclick="navigateTo(2)" title="Landing Pages"></div>
+        <div class="nav-dot" onclick="navigateTo(3)" title="Portfolio"></div>
+        <div class="nav-dot" onclick="navigateTo(4)" title="Contact"></div>
     </div>
 
-  </main>
+    <main id="main-container">
+
+        <!-- === SECTION 0: HERO === -->
+        <section class="section-panel active" id="sec-0">
+            <!-- Parallax Layer: BG -->
+            <div class="parallax-mouse absolute inset-0" data-speed="1">
+                <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-slate-800 via-slate-900 to-black"></div>
+                <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-30"></div>
+                <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-indigo-600/20 rounded-full blur-[100px]"></div>
+            </div>
+            
+            <!-- Parallax Layer: Mid -->
+            <div class="parallax-mouse absolute inset-0 flex items-center justify-center pointer-events-none" data-speed="3">
+                <h1 class="hero-massive text-[12rem] md:text-[20rem] font-black text-slate-800/20 select-none whitespace-nowrap opacity-50">CAPY</h1>
+            </div>
+
+            <!-- Parallax Layer: Fore -->
+            <div class="parallax-mouse section-content hero-content relative z-10 text-center px-6" data-speed="0.5">
+                <div class="hero-badge inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-xs font-semibold tracking-wide uppercase mb-6">
+                    <span class="w-2 h-2 rounded-full bg-indigo-400 animate-pulse"></span>
+                    Dev • Design • Foto
+                </div>
+                <h2 class="hero-title text-5xl md:text-7xl font-black tracking-tight leading-tight mb-8">
+                    Conversão, performance e <br> <span class="gradient-text">experiência fluida.</span>
+                </h2>
+                <button onclick="navigateTo(1)" class="hero-down animate-bounce mt-10 text-slate-500 hover:text-white transition-colors">
+                    <i class="fa-solid fa-chevron-down text-2xl"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- === SECTION 1: SERVICES === -->
+        <section class="section-panel next" id="sec-1">
+            <!-- Parallax Layer: BG -->
+            <div class="parallax-mouse absolute inset-0" data-speed="1">
+                <div class="absolute inset-0 bg-slate-900"></div>
+                <div class="absolute bottom-0 right-0 w-[800px] h-[800px] bg-purple-900/10 rounded-full blur-[120px]"></div>
+            </div>
+            
+             <!-- Parallax Layer: Mid (Decorations) -->
+             <div class="parallax-mouse absolute inset-0 pointer-events-none" data-speed="2">
+                <div class="absolute top-20 right-20 text-slate-800 text-9xl font-black opacity-20 rotate-12">STUDIO</div>
+                <i class="fa-solid fa-pen-nib absolute bottom-32 left-32 text-slate-800 text-8xl opacity-20 -rotate-12"></i>
+            </div>
+
+            <!-- Parallax Layer: Content -->
+            <div class="parallax-mouse section-content services-content relative z-10 w-full max-w-7xl px-6 md:px-12 grid grid-cols-1 md:grid-cols-2 gap-12 items-center" data-speed="0.5">
+                <div class="mt-12 md:mt-0">
+                    
+                    <h2 class="services-title text-3xl md:text-4xl font-bold text-white mt-10 mb-1">Tecnologia & <br> Criatividade</h2>
+                    <p class="services-copy text-slate-400 text-sm md:text-base leading-relaxed mb-2">
+                        CapyPages é o estúdio de serviços digitais, unindo desenvolvimento experiências web modernas.
+                    </p>
+                    <ul class="services-list space-y-3 text-slate-300">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-500"></i> Landing Pages de Alta Conversão</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-500"></i> Identidade Visual & Branding</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-500"></i> Soluções com IA & Automação</li>
+                    </ul>
+                </div>
+                <div class="grid grid-cols-1 gap-6">
+                    <div class="glass-card p-4 rounded-xl flex items-center gap-4">
+                        <div class="w-12 h-12 bg-indigo-500/20 rounded-lg flex items-center justify-center text-indigo-400"><i class="fa-solid fa-code"></i></div>
+                        <div>
+                            <h4 class="font-bold text-white">Front-end</h4>
+                            <p class="text-xs text-slate-400">React, Tailwind, Astro</p>
+                        </div>
+                    </div>
+                    <div class="glass-card p-4 rounded-xl flex items-center gap-4 ml-8">
+                        <div class="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center text-purple-400"><i class="fa-solid fa-palette"></i></div>
+                        <div>
+                            <h4 class="font-bold text-white">Design</h4>
+                            <p class="text-xs text-slate-400">UI/UX, Logos, Branding</p>
+                        </div>
+                    </div>
+                    <div class="glass-card p-4 rounded-xl flex items-center gap-4">
+                        <div class="w-12 h-12 bg-pink-500/20 rounded-lg flex items-center justify-center text-pink-400"><i class="fa-solid fa-camera"></i></div>
+                        <div>
+                            <h4 class="font-bold text-white">Fotografia</h4>
+                            <p class="text-xs text-slate-400">Produto, Editorial, Eventos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      <section class="section-panel next pt-20 md:pt-24 lg:pt-20 sales-section" id="sec-2">
+  <!-- BG -->
+  <div class="parallax-mouse absolute inset-0" data-speed="1">
+    <div class="absolute inset-0 bg-slate-900"></div>
+    <div class="absolute bottom-0 left-0 w-[620px] h-[620px] bg-emerald-900/20 rounded-full blur-[110px]"></div>
+  </div>
+
+  <!-- Deco -->
+  <div class="parallax-mouse absolute inset-0 pointer-events-none" data-speed="2">
+    <div class="absolute top-[15%] right-[15%] text-slate-800 text-9xl font-black opacity-15">
+      <i class="fa-solid fa-chart-line text-[11rem] md:text-[13rem] text-emerald-500"></i>
+    </div>
+  </div>
+
+ <!-- Content -->
+<div
+  class="parallax-mouse section-content landing-content relative z-10 w-full max-w-6xl px-4 sm:px-6 md:px-12 mt-4"
+  data-speed="0.5"
+>
+  <div
+    class="landing-grid grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-start mt-4 lg:items-center"
+  >
+    <!-- Esquerda -->
+    <div class="order-1">
+      <div
+        class="landing-badge inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[10px] sm:text-[11px] font-bold tracking-wide uppercase mb-3 mt-4"
+      >
+        <i class="fa-solid fa-bolt text-xs"></i>
+        Landing pages que vendem
+      </div>
+
+      <h2
+        class="landing-title text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white mb-3 leading-snug sm:leading-tight"
+      >
+        Transforme tráfego em
+        <span class="gradient-text-green">pedidos e leads reais.</span>
+      </h2>
+
+      <p
+        class="landing-copy text-slate-300 text-xs sm:text-sm md:text-base mb-4 leading-relaxed max-w-xl"
+      >
+        Nada de site que não converte.
+        Cada página é pensada para abrir rápido no mobile
+        e levar seu cliente direto para você.
+      </p>
+
+      <div class="landing-features space-y-3 sm:space-y-4 text-sm max-w-xl">
+        <div class="flex items-start gap-3">
+          <div
+            class="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-emerald-500/15 flex items-center justify-center text-emerald-400 shrink-0 mt-0.5"
+          >
+            <i class="fa-solid fa-stopwatch text-[11px] sm:text-xs"></i>
+          </div>
+          <div>
+            <h4 class="text-white font-semibold text-sm sm:text-base">
+              Rápida de verdade
+            </h4>
+            <p class="text-slate-400 text-[11px] sm:text-xs">
+              Performance alta para não perder clique em 3G/4G e agradar o Google.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-3">
+          <div
+            class="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-emerald-500/15 flex items-center justify-center text-emerald-400 shrink-0 mt-0.5"
+          >
+            <i class="fa-solid fa-brain text-[11px] sm:text-xs"></i>
+          </div>
+          <div>
+            <h4 class="text-white font-semibold text-sm sm:text-base">
+              Texto que guia ao “sim”
+            </h4>
+            <p class="text-slate-400 text-[11px] sm:text-xs">
+              Estrutura pensada para explicar, tirar dúvidas e chamar para ação sem enrolar.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-3">
+          <div
+            class="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-emerald-500/15 flex items-center justify-center text-emerald-400 shrink-0 mt-0.5"
+          >
+            <i class="fa-solid fa-mobile-screen-button text-[11px] sm:text-xs"></i>
+          </div>
+          <div>
+            <h4 class="text-white font-semibold text-sm sm:text-base">
+              Mobile first
+            </h4>
+            <p class="text-slate-400 text-[11px] sm:text-xs">
+              Pensada do zero para o celular, onde está a maior parte das vendas hoje.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-6 sm:mt-8">
+        <a
+          href="https://wa.me/5519995466902?text=Ol%C3%A1%2C%20quero%20uma%20Landing%20Page%20de%20alta%20convers%C3%A3o!"
+          target="_blank"
+          class="landing-cta inline-flex w-full sm:w-auto justify-center items-center gap-3 px-6 sm:px-7 py-3 sm:py-3.5 bg-emerald-600 hover:bg-emerald-500 text-white text-xs sm:text-sm font-bold rounded-full transition-all shadow-lg shadow-emerald-600/30 hover:-translate-y-1"
+        >
+          Quero minha página agora
+          <i class="fa-solid fa-arrow-right text-[11px] sm:text-xs"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Direita: card de oferta -->
+    <div class="relative order-2 mt-6 lg:mt-0">
+      <div
+        class="absolute inset-0 bg-emerald-500/18 blur-[40px] sm:blur-[55px] rounded-full"
+      ></div>
+
+      <div
+        class="landing-card glass-card p-5 sm:p-7 rounded-3xl relative border border-emerald-500/30 max-w-md mx-auto w-full"
+      >
+        <div
+          class="landing-card-badge absolute -top-4 -right-4 w-14 h-14 sm:w-16 sm:h-16 bg-yellow-400 text-slate-900 rounded-full flex flex-col items-center justify-center text-[10px] sm:text-xs font-bold rotate-12 shadow-lg z-20 leading-tight"
+        >
+          MAIS<br />VENDIDO
+        </div>
+
+        <h3 class="landing-card-title text-lg sm:text-xl md:text-2xl font-bold text-white mb-2">
+          Landing Page High‑Perf
+        </h3>
+        <div class="h-1 w-14 sm:w-16 bg-emerald-500 rounded mb-4 sm:mb-5"></div>
+
+        <ul class="landing-offer-list space-y-2.5 sm:space-y-3 mb-5 sm:mb-6 text-xs sm:text-sm">
+          <li
+            class="landing-offer-item flex items-center justify-between text-slate-300 border-b border-slate-700 pb-2"
+          >
+            <span>Layout exclusivo para sua marca</span>
+            <i class="fa-solid fa-check-circle text-emerald-400 text-sm"></i>
+          </li>
+          <li
+            class="landing-offer-item flex items-center justify-between text-slate-300 border-b border-slate-700 pb-2"
+          >
+            <span>SEO & performance ajustados</span>
+            <i class="fa-solid fa-check-circle text-emerald-400 text-sm"></i>
+          </li>
+          <li
+            class="landing-offer-item flex items-center justify-between text-slate-300 border-b border-slate-700 pb-2"
+          >
+            <span>Integração WhatsApp / Pixel</span>
+            <i class="fa-solid fa-check-circle text-emerald-400 text-sm"></i>
+          </li>
+          <li
+            class="landing-offer-item flex items-center justify-between text-slate-300 border-b border-slate-700 pb-2"
+          >
+            <span>Deploy em hospedagem rápida</span>
+            <i class="fa-solid fa-check-circle text-emerald-400 text-sm"></i>
+          </li>
+        </ul>
+
+        <div
+          class="bg-slate-800/50 rounded-xl p-3 text-center border border-slate-700 mb-4 sm:mb-5"
+        >
+          <span
+            class="block text-slate-400 text-[9px] sm:text-[10px] uppercase tracking-[0.25em] mb-1"
+          >
+            Performance média
+          </span>
+          <div
+            class="flex justify-center items-center gap-2 text-2xl sm:text-3xl font-black text-emerald-400"
+          >
+            <i class="fa-solid fa-gauge-high"></i> 95–99/100
+          </div>
+        </div>
+
+        <a
+          href="https://wa.me/5519995466902?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20pacote%20High-Perf"
+          target="_blank"
+          class="block w-full py-2.5 bg-slate-700 hover:bg-slate-600 text-center rounded-lg text-xs sm:text-sm text-white font-bold transition-colors"
+        >
+          Solicitar orçamento rápido
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
 
 
+        <!-- === SECTION 3: PORTFOLIO === -->
+        <section class="section-panel next" id="sec-3">
+            <!-- Parallax Layer: BG -->
+            <div class="parallax-mouse absolute inset-0" data-speed="1">
+                <div class="absolute inset-0 bg-slate-900"></div>
+                <!-- Gradient mesh effect -->
+                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80vw] h-[80vh] bg-gradient-to-r from-indigo-900/20 to-purple-900/20 rounded-full blur-3xl"></div>
+            </div>
 
+            <!-- Parallax Layer: Content -->
+            <div class="parallax-mouse section-content portfolio-content relative z-10 w-full max-w-7xl px-6 md:px-12" data-speed="0.5">
+                <div class="text-center mb-12">
+                    <h2 class="portfolio-title text-4xl md:text-6xl font-bold text-white">Projetos Recentes</h2>
+                </div>
+                
+                <div class="portfolio-grid flex flex-col md:flex-row justify-center gap-8 h-[50vh]">
+                    <!-- Item 1 -->
+                    <div class="glass-card group relative flex-1 rounded-2xl overflow-hidden cursor-pointer transition-all duration-500 hover:flex-[1.5]">
+                        <div class="absolute inset-0 bg-gradient-to-br from-indigo-800 to-slate-900"></div>
+                        <div class="absolute inset-0 flex items-center justify-center text-9xl text-white opacity-10 group-hover:opacity-20 transition-opacity">
+                            <i class="fa-solid fa-robot"></i>
+                        </div>
+                        <div class="absolute bottom-0 left-0 p-8 w-full bg-gradient-to-t from-slate-900 to-transparent">
+                            <h3 class="text-2xl font-bold text-white">CapyUniverse</h3>
+                            <p class="text-indigo-300 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity">IA & Automação para Inovação</p>
+                        </div>
+                    </div>
 
+                    <!-- Item 2 -->
+                    <div class="glass-card group relative flex-1 rounded-2xl overflow-hidden cursor-pointer transition-all duration-500 hover:flex-[1.5]">
+                        <div class="absolute inset-0 bg-gradient-to-br from-purple-800 to-slate-900"></div>
+                        <div class="absolute inset-0 flex items-center justify-center text-9xl text-white opacity-10 group-hover:opacity-20 transition-opacity">
+                            <i class="fa-solid fa-terminal"></i>
+                        </div>
+                        <div class="absolute bottom-0 left-0 p-8 w-full bg-gradient-to-t from-slate-900 to-transparent">
+                            <h3 class="text-2xl font-bold text-white">CapyUNI Codium</h3>
+                            <p class="text-purple-300 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity">Experiências para Devs</p>
+                        </div>
+                    </div>
 
+                    <!-- Item 3 -->
+                    <div class="glass-card group relative flex-1 rounded-2xl overflow-hidden cursor-pointer transition-all duration-500 hover:flex-[1.5]">
+                        <div class="absolute inset-0 bg-gradient-to-br from-pink-800 to-slate-900"></div>
+                        <div class="absolute inset-0 flex items-center justify-center text-9xl text-white opacity-10 group-hover:opacity-20 transition-opacity">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        </div>
+                        <div class="absolute bottom-0 left-0 p-8 w-full bg-gradient-to-t from-slate-900 to-transparent">
+                            <h3 class="text-2xl font-bold text-white">CapyIDE</h3>
+                            <p class="text-pink-300 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity">Criação Visual de Prompts</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
+        <!-- === SECTION 4: CONTACT === -->
+        <section class="section-panel next" id="sec-4">
+             <!-- Parallax Layer: BG -->
+             <div class="parallax-mouse absolute inset-0" data-speed="1">
+                <div class="absolute inset-0 bg-slate-950"></div>
+                <div class="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5"></div>
+            </div>
 
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            <div class="parallax-mouse section-content contact-content relative z-10 max-w-3xl w-full px-6" data-speed="0.5">
+                <div class="contact-card glass-card rounded-3xl p-10 md:p-14 border border-indigo-500/30 shadow-2xl shadow-indigo-500/10">
+                    <div class="text-center mb-10">
+                        <h2 class="contact-title text-4xl md:text-5xl font-bold text-white mb-4">Vamos criar algo incrível?</h2>
+                        <p class="text-slate-400">Entre em contato e tire suas ideias do papel.</p>
+                    </div>
 
+                    <div class="contact-actions grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                        <a href="https://wa.me/5519995466902" target="_blank" class="flex items-center justify-center gap-3 py-4 bg-green-600 hover:bg-green-500 rounded-lg text-white font-bold transition-all shadow-lg hover:-translate-y-1">
+                            <i class="fa-brands fa-whatsapp text-xl"></i>
+                            Conversar no WhatsApp
+                        </a>
+                        <a href="mailto:scarpatodesigner@gmail.com" class="flex items-center justify-center gap-3 py-4 bg-slate-700 hover:bg-slate-600 rounded-lg text-white font-bold transition-all shadow-lg hover:-translate-y-1">
+                            <i class="fa-solid fa-envelope text-xl"></i>
+                            Enviar E-mail
+                        </a>
+                    </div>
+                    
+                    <div class="contact-social mt-8 flex justify-center gap-8 text-slate-500">
+                        <a href="https://www.instagram.com/rafaelscarpato/" target="_blank" class="hover:text-pink-500 transition-colors"><i class="fa-brands fa-instagram text-3xl"></i></a>
+                        <a href="https://www.linkedin.com/in/rafaelscarpato/" target="_blank" class="hover:text-blue-500 transition-colors"><i class="fa-brands fa-linkedin text-3xl"></i></a>
+                        <a href="https://github.com/faelscarpato" target="_blank" class="hover:text-white transition-colors"><i class="fa-brands fa-github text-3xl"></i></a>
+                    </div>
+                    
+                    <div class="text-center mt-10 text-slate-600 text-sm">
+                        &copy; 2026 CapyPages. Todos os direitos reservados.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('.section-panel');
+            const dots = document.querySelectorAll('.nav-dot');
+            let currentSectionIndex = 0;
+            let isAnimating = false;
+            const totalSections = sections.length;
+
+            // Initialize position classes
+            updateSectionClasses();
+
+            // === NAVIGATION LOGIC ===
+            window.navigateTo = (index) => {
+                if (index === currentSectionIndex || isAnimating) return;
+                
+                isAnimating = true;
+                currentSectionIndex = index;
+                
+                updateSectionClasses();
+                updateDots();
+
+                // Animation Cooldown
+                setTimeout(() => {
+                    isAnimating = false;
+                }, 1000); // Matches CSS transition duration
+            };
+
+            function updateSectionClasses() {
+                sections.forEach((section, index) => {
+                    // Reset classes
+                    section.classList.remove('active', 'previous', 'next');
+                    
+                    if (index === currentSectionIndex) {
+                        section.classList.add('active');
+                    } else if (index < currentSectionIndex) {
+                        section.classList.add('previous');
+                    } else {
+                        section.classList.add('next');
+                    }
+                });
+            }
+
+            function updateDots() {
+                dots.forEach((dot, index) => {
+                    if (index === currentSectionIndex) dot.classList.add('active');
+                    else dot.classList.remove('active');
+                });
+            }
+
+            // === SCROLL/WHEEL HANDLER ===
+            window.addEventListener('wheel', (e) => {
+                if (isAnimating) return;
+
+                if (e.deltaY > 0) {
+                    // Scroll Down
+                    if (currentSectionIndex < totalSections - 1) {
+                        navigateTo(currentSectionIndex + 1);
+                    }
+                } else {
+                    // Scroll Up
+                    if (currentSectionIndex > 0) {
+                        navigateTo(currentSectionIndex - 1);
+                    }
+                }
+            });
+
+            // === TOUCH/SWIPE HANDLER ===
+            let touchStartY = 0;
+            window.addEventListener('touchstart', e => { touchStartY = e.changedTouches[0].screenY; });
+            window.addEventListener('touchend', e => {
+                if (isAnimating) return;
+                const touchEndY = e.changedTouches[0].screenY;
+                const diff = touchStartY - touchEndY;
+
+                if (Math.abs(diff) > 50) { // Threshold
+                    if (diff > 0) {
+                        // Swipe Up (Next)
+                        if (currentSectionIndex < totalSections - 1) navigateTo(currentSectionIndex + 1);
+                    } else {
+                        // Swipe Down (Prev)
+                        if (currentSectionIndex > 0) navigateTo(currentSectionIndex - 1);
+                    }
+                }
+            });
+
+            // === KEYBOARD NAV ===
+            window.addEventListener('keydown', (e) => {
+                if (isAnimating) return;
+                if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
+                    if (currentSectionIndex < totalSections - 1) navigateTo(currentSectionIndex + 1);
+                } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
+                    if (currentSectionIndex > 0) navigateTo(currentSectionIndex - 1);
+                }
+            });
+
+            // === MOUSE PARALLAX LOGIC (Applies to all sections) ===
+            document.addEventListener('mousemove', (e) => {
+                // Only animate the active section's layers to save performance
+                const activeSection = sections[currentSectionIndex];
+                const layers = activeSection.querySelectorAll('.parallax-mouse');
+                
+                const x = (window.innerWidth - e.pageX * 2) / 100;
+                const y = (window.innerHeight - e.pageY * 2) / 100;
+
+                layers.forEach(layer => {
+                    const speed = layer.getAttribute('data-speed') || 1;
+                    const xPos = x * speed;
+                    const yPos = y * speed;
+                    layer.style.transform = `translateX(${xPos}px) translateY(${yPos}px)`;
+                });
+            });
+        });
+    </script>
 </body>
-
 </html>
